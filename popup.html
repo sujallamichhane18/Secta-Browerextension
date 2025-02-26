@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sec-Ta</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        background-color: #1a2b44;
+        color: #ffffff;
+        margin: 0;
+      }
+      h3 {
+        margin: 0 0 10px 0;
+        font-size: 16px;
+        text-align: center;
+      }
+      .feature {
+        margin: 8px 0;
+        padding: 8px;
+        background-color: #2e4066;
+        border-radius: 4px;
+      }
+      .status-safe {
+        color: #00cc00;
+        font-weight: bold;
+      }
+      .status-not-safe {
+        color: #ff3333;
+        font-weight: bold;
+      }
+      .warning {
+        color: #ff3333;
+        font-style: italic;
+        font-size: 12px;
+      }
+      .details {
+        font-size: 12px;
+        color: #cccccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Secta Analysis</h3>
+    <div id="phishing" class="feature"></div>
+    <div id="connection" class="feature"></div>
+    <div id="headers" class="feature"></div>
+    <div id="ip-address" class="feature"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

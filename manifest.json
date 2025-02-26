@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Sec-Data",
+  "version": "1.0",
+  "description": "Cybersecurity tool for phishing, connection, headers, and IP analysis.",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "test1.png",
+      "48": "test1.png",
+      "128": "test1.png"
+    }
+  }
+}
