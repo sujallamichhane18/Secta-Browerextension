@@ -34,7 +34,7 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 Secta is released under the MIT License.
 
 ## Contact
-For support, suggestions, or reporting security issues, contact us at [support@kaalbhairavsecurity.com](mailto:support@kaalbhairavsecurity.com).
+For support, suggestions, or reporting security issues, contact us at linkedin(https://www.linkedin.com/in/sujal-lamichhane/).
 
 Happy Hacking!
 
