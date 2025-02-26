@@ -30,8 +30,7 @@ Secta ensures user privacy by performing all security checks locally on the devi
 ## Contributions
 We welcome contributions! Feel free to fork the repository and submit pull requests.
 
-## License
-Secta is released under the MIT License.
+
 
 ## Contact
 For support, suggestions, or reporting security issues, contact us at linkedin(https://www.linkedin.com/in/sujal-lamichhane/).
